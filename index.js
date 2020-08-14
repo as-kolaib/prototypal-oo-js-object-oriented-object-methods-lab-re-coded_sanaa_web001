@@ -1,4 +1,4 @@
-function User(name, homeState,) {
+function User(name, homeState,training) {
   this.name = name;
   this.email = email;
   this.sayHello = function() {
