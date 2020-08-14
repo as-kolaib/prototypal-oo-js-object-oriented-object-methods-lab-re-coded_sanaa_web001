@@ -2,7 +2,7 @@ function BoardMember(name, homeState,training) {
   this.name = name;
   this.homeState = homeState;
     this.training = training;
-  this.BoardMember  = function() {
+  this.veto   = function() {
    return 'No, I must disagree';
   };
    this.approve= function() {
