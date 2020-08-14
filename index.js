@@ -18,6 +18,3 @@ function BoardMember(name, homeState,training) {
    return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`;
   };
 }
- 
-let lauren = new User('lauren', 'lauren@gmail.com');
-lauren.sayHello(); //=> Hello everybody, my name is lauren whom you've been mailing at lauren@gmail.com!
