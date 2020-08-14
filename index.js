@@ -5,7 +5,7 @@ function BoardMember(name, homeState,training) {
   this.BoardMember  = function() {
    return 'No, I must disagree';
   };
-   this.approve   = function() {
+   this.approve= function() {
    return 'You can do that!';
   };
     this.doCharity  = function() {
