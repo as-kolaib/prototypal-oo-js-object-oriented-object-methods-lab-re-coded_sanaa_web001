@@ -14,7 +14,9 @@ function BoardMember(name, homeState,training) {
    this.releasePressStatement    = function() {
    return 'You will see great things from Scuber';
   };
-  
+   this.releasePressStatement    = function() {
+   return 'You will see great things from Scuber';
+  };
 }
  
 let lauren = new User('lauren', 'lauren@gmail.com');
