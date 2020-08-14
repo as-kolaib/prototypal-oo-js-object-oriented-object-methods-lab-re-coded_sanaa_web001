@@ -8,6 +8,13 @@ function BoardMember(name, homeState,training) {
    this.approve   = function() {
    return 'You can do that!';
   };
+    this.BoardMember  = function() {
+   return 'No, I must disagree';
+  };
+   this.approve   = function() {
+   return 'You can do that!';
+  };
+  
 }
  
 let lauren = new User('lauren', 'lauren@gmail.com');
