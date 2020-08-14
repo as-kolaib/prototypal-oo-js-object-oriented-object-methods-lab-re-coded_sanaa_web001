@@ -11,7 +11,7 @@ function BoardMember(name, homeState,training) {
     this.BoardMember  = function() {
    return 'No, I must disagree';
   };
-   this.approve   = function() {
+   this.releasePressStatement    = function() {
    return 'You can do that!';
   };
   
