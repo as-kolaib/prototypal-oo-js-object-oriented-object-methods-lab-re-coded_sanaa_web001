@@ -5,6 +5,9 @@ function BoardMember(name, homeState,training) {
   this.BoardMember  = function() {
    return 'No, I must disagree';
   };
+   this.BoardMember  = function() {
+   return 'No, I must disagree';
+  };
 }
  
 let lauren = new User('lauren', 'lauren@gmail.com');
