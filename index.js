@@ -12,7 +12,7 @@ function BoardMember(name, homeState,training) {
    return 'No, I must disagree';
   };
    this.releasePressStatement    = function() {
-   return 'You can do that!';
+   return 'You will see great things from Scuber';
   };
   
 }
