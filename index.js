@@ -1,6 +1,7 @@
 function User(name, homeState,training) {
   this.name = name;
-  this.email = email;
+  this.homeState = homeState;
+    this.training = training;
   this.sayHello = function() {
     console.log(`Hello everybody, my name is ${this.name} whom you've been
 mailing at ${this.email}!`);
